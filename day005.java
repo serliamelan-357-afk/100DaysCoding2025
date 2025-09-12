@@ -5,7 +5,7 @@ public class Day5 {
         byte b = 9;
         short tinggi = 150;
         int gaji = 50000;
-        long  bulat = 24648;
+        long  bulat = 24648L;
         System.out.println(b);
         System.out.println(tinggi);
         System.out.println(gaji);
