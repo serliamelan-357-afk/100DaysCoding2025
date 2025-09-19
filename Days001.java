@@ -1,8 +1,6 @@
-package day1coding;
-public class Day1coding {
+package minggu1;
+public class days1 {
     public static void main(String[] args) {
-        // TODO code application logic here
-        
         System.out.println("hello world");
     }
     
