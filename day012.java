@@ -1,0 +1,41 @@
+package minggu1;
+import java.util.Scanner;
+public class days12 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+      System.out.println("biodata");
+      
+      System.out.print("Nama lengkap\t: ");
+      String nama = input.nextLine();
+      
+      System.out.print("gender\t\t: ");
+      String gender = input.nextLine();
+      
+      System.out.print("tempat tinggal\t: ");
+      String tempattinggal = input.nextLine();
+      
+      System.out.print("status\t\t: ");
+      String status = input.nextLine();
+      
+      System.out.print("program study\t: ");
+      String programstudy = input.nextLine();
+      
+      System.out.print("fakultas\t: ");
+      String fakultas = input.nextLine();
+      
+      System.out.print("tinggi badan\t: ");
+      int tinggibadan = input.nextInt();
+      
+      System.out.println("berat badan\t: ");
+      double beratbadan = input.nextDouble();
+      
+      
+           
+      
+        
+        
+    }
+    
+    
+}
