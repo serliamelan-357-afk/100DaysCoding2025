@@ -29,6 +29,17 @@ public class days12 {
       
       System.out.println("berat badan\t: ");
       double beratbadan = input.nextDouble();
+
+       System.out.println("Nama lengkap\t:" +nama);
+      System.out.println("gender\t\t:" +gender);
+      System.out.println("Tempat tinggal\t:" +tempattinggal);
+      System.out.println("status\t\t:" +status);
+      System.out.println("program study\t:" +programstudy);
+      System.out.println("fakultas\t:" +fakultas);
+      System.out.println("Tinggi badan\t:" +tinggibadan);
+      System.out.println("berat badan\t:" +beratbadan);
+      
+
       
       
            
