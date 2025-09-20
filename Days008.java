@@ -14,6 +14,8 @@ public class Day8 {
         System.out.println(umur);
         System.out.println(prodi);
         System.out.println(faultas);
+
+        
         
 
     }
