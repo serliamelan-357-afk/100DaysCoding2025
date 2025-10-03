@@ -4,7 +4,7 @@ public class Days026 {
 
     public static void main(String[] args) {
 
-        int X = 5, v = 3,
+        int X = 4, v = 3,
                 n = 2, W = 5, S = 7;
         X += 4;
         v -= 3;
