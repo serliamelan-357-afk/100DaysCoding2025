@@ -1,27 +1,32 @@
-package Latihan10;
+package minggu3;
 
 import java.util.Scanner;
 
-public class latihan01 {
+public class Days040 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("masukan total belanjaan: Rp ");
-        double totalBelanja = input.nextDouble();
+        System.out.println("Masukan angka pertama: ");
+        int a = sc.nextInt();
+        System.out.println("Masukan angka kedua: ");
+        int b = sc.nextInt();
 
-        double diskon = 0;
-        double totalBayar;
+        System.out.println("pilih operasi (+,-,*,/);");
+        char operasi = sc.next().charAt(0);
 
-        if (totalBelanja > 100000) {
-            diskon = totalBelanja * 0.10;
-            System.out.println("Selamat! anda mendapatkan diskon 10%");
-
+        if (operasi == '+') {
+            System.out.println("Hasil = " + (a + b));
         }
-        totalBayar = totalBelanja - diskon;
-
-        System.out.println("Jumlah diskon: Rp " + diskon);
-        System.out.println("Total yang harus dibayar: Rp " + totalBayar);
+        if (operasi == '-') {
+            System.out.println("Hasil = " + (a - b));
+        }
+        if (operasi == '*') {
+            System.out.println("Hasil = " + (a * b));
+        }
+        if (operasi == '/') {
+            System.out.println("Hasil = " + (a / b));
+        }
 
     }
 
