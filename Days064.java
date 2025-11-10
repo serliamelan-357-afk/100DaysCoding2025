@@ -5,15 +5,21 @@ import java.util.Scanner;
 public class Days064 {
     public static void main(String[] args) {
        Scanner s = new Scanner(System.in);
-        System.out.print("Masukan nilai N: ");
+       
+        System.out.print("Masukkan nilai M: ");
+        int M = s.nextInt();
+        System.out.print("Masukkan nilai N: ");
         int N = s.nextInt();
         
-        int jumlah = 0;
+        int hasil =1;
         for (int i = 1; i <= N; i++) {
-            jumlah += i;
+            hasil *= M;
             
         }
-        System.out.println("Jumlah dari 1 sampai " + N + " dalah: " + jumlah);
+        System.out.println(M + " pangkat " + N + " = " + hasil);
+            
+        
     }
+
 
 }
