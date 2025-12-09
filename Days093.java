@@ -1,4 +1,4 @@
-package minggu7;
+ package minggu7;
 
 public class Days093 {
     public static void main(String[] args) {
@@ -8,8 +8,11 @@ public class Days093 {
         double angka3 = 7.5;
         
         System.out.println("===CEIL===");
+        tampilkanCeil(angka1);
         System.out.println("\n===FLOOR===");
+        tampilkanFloor(angka2);
         System.out.println("\n===ROUND===");
+        tampilkanRound(angka3);
           
         
     }
@@ -28,3 +31,4 @@ public class Days093 {
    
 
 }
+
