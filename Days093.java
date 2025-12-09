@@ -8,13 +8,23 @@ public class Days093 {
         double angka3 = 7.5;
         
         System.out.println("===CEIL===");
-        System.out.println("Ceil dari " + angka1 + " = " +Math.ceil(angka1));
+        System.out.println("\n===FLOOR===");
+        System.out.println("\n===ROUND===");
+          
         
-        System.out.println("\n=== FLOOR ===");
-        System.out.println("Floor dari " + angka2 + " = " + Math.floor(angka2));
-        
-        System.out.println("\n=== ROUND ===");
-        System.out.println("Round dari " + angka3 + " = " + Math.round(angka3) );
     }
+    public static void tampilkanCeil(double angka){
+        double hasil = Math.ceil(angka);
+        System.out.println("Ceil dari " + angka + " = " + hasil);
+    }
+    public static void tampilkanFloor(double angka){
+        double hasil = Math.floor(angka);
+        System.out.println("Floor dari " + angka + " = " + hasil);
+    }
+    public static void tampilkanRound(double angka){
+        long hasil = Math.round(angka);
+        System.out.println("Round dari " + angka + " = " + hasil);
+    }
+   
 
 }
